@@ -8,5 +8,8 @@ This is an application which will reset your gyro sensor. By default the HUB ini
 This is an application which showcase how to use xs-tool's menu module. See the code for details.
 
 
+## xs-tools
+This contains all the xs-tool's modules, without any applications embedded. 
+
 ## Things to do
 - Provide documentation of the API
