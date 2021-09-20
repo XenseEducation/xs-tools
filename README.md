@@ -1,4 +1,4 @@
-# xs-tools
+# XS Tools
 XS Tools is a set of tools/utils/modules for Lego Spike Prime and MINDSTORMS Robot Inventor, aiming improve ease-of-use of the official Python modules.
 
 ## app_gryo_reset
