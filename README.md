@@ -7,6 +7,8 @@ This is an application which will reset your gyro sensor. By default the HUB ini
 ## app_test_menu
 This is an application which showcase how to use xs-tool's menu module. Currently it supports using the left/right/center buttons. Left/right buttons navigate menu items, center button select/execute the menu item as well as going back to previous menu (using either double-click or long hold of center button). See the code for details.
 
+## app_change_slot_image
+This is an application which showcase how to change slot image of the hub menu. Users can also restore the slot images.
 
 ## xs-tools
 This contains all the xs-tool's modules, without any applications embedded. 
