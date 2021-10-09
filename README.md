@@ -4,6 +4,8 @@ XS Tools is a set of tools/utils/modules for Lego Spike Prime and MINDSTORMS Rob
 ## app_s2py_switcher
 This is an application which enable/disable running Python code from word blocks (s2py). 
 
+![s2py](images/s2py_1.png)
+
 Instructions to enable s2py
 - Load and run `app_s2py_switcher.llsp` or `app_s2py_switcher.lms` (depending on whether you are running Spike App or Mindstorms App)
   - You will be presented with a menu of 2 choices:
