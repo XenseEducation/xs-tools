@@ -2,7 +2,7 @@
 XS Tools is a set of tools/utils/modules for Lego Spike Prime and MINDSTORMS Robot Inventor, aiming improve ease-of-use of the official Python modules.
 
 ## app_s2py_switcher
-This is an application which enable/disable running Python code from word blocks (s2py). 
+This is an application which enables/disables the feature of running Python code from word blocks (s2py). 
 
 ![s2py](images/s2py_1.png)
 
