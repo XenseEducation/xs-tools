@@ -6,7 +6,7 @@ This is an application which enables/disables the feature of running Python code
 
 ![s2py](images/s2py_1.png)
 
-Instructions to enable s2py
+### Instructions to enable s2py
 - Load and run `app_s2py_switcher.llsp` or `app_s2py_switcher.lms` (depending on whether you are running Spike App or Mindstorms App)
   - You will be presented with a menu of 2 choices:
     - Checkmark: enable running Python code in word blocks
@@ -15,7 +15,7 @@ Instructions to enable s2py
 - You can go back to this program in your hub to enable/disable this feature anytime
 - You need to run this program once everytime when your hub is powered up. If not, you will just see the Python code displayed on the hub's screen.
 
-Using s2py
+### Using s2py
 - Once you have enabled s2py, you can use the "display message" block in Spike App or Robot Inventor App and write python code
   - s2py only accept Python expression. https://www.hackerearth.com/practice/python/working-with-data/expressions/tutorial/
 - You need to prefix the text with `XS:` to tell s2py that you are sending a Python expression
