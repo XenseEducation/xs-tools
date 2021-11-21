@@ -34,7 +34,23 @@ This is an application which enables/disables the feature of running Python code
 This is an application which will reset your gyro sensor. By default the HUB initializes the gyro sensor during powerup. However frequently users will move their HUBs during powerup, causing potential miscalculations of yaw/pitch/roll (which is based on rate of changes of the HUB along the 3 axis). This application allows users to reset the gyro sensor on a steady platform. It will not finish until it has detected that the HUB is resting on a steady platform. There are 3 levels of accuracy mode (low, medium, high). The higher the level, the more time it will take the HUB to reset the gyro.
 
 ## app_test_menu
-This is an application which showcase how to use xs-tool's menu module. Currently it supports using the left/right/center buttons. Left/right buttons navigate menu items, center button select/execute the menu item as well as going back to previous menu (using either double-click or long hold of center button). See the code for details.
+This is an application which showcase how to use xs-tool's menu module. Currently it supports using the left/right/center buttons. Left/right buttons navigate menu items, center button select/execute the menu item as well as going back to previous menu (using either double-click or long hold of center button). 
+
+The following example will run `run()` from slot15 when `A` is selected in the menu
+```python3
+from xsloader import import_from_slot
+from xs import menu
+
+slot15 = import_from_slot(15)
+
+entries = ['A', 'B', 'C']
+
+for idx, itm, nxt in menu.get_items(entries, exit_double_click=True, exit_long_hold=True):
+    if itm == 'A':
+        slot15.run('A')
+        nxt(entries.index('C'), sound=True)  # move to entry `C`
+```
+See the code for more examples.
 
 ## app_change_slot_image
 This is an application which showcase how to change slot image of the hub menu. Users can also restore the slot images.
