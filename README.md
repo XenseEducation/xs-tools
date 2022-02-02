@@ -13,7 +13,7 @@ This is an application which enables/disables the feature of running Python code
     - Cross: disable running Python code in word blocks
   - By default after running the program, it will enable the mode. 
 - You can go back to this program in your hub to enable/disable this feature anytime
-- You need to run this program once everytime when your hub is powered up. If not, you will just see the Python code displayed on the hub's screen.
+- You need to run this program once every time when your hub is powered up. If not, you will just see the Python code displayed on the hub's screen.
 
 ### Using s2py
 - Once you have enabled s2py, you can use the "display message" block in Spike App or Robot Inventor App and write python code
